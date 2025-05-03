@@ -1,29 +1,29 @@
 frappe.provide("frappe.ui.misc");
 frappe.ui.misc.about = function () {
 	if (!frappe.ui.misc.about_dialog) {
-		var d = new frappe.ui.Dialog({ title: __("Frappe Framework") });
+		var d = new frappe.ui.Dialog({ title: __("Built with Frappe Framework") });
 
 		$(d.body).html(
 			repl(
 				"<div>\
 		<p>" +
-					__("Open Source Applications for the Web") +
+					__("Applications for the Web") +
 					"</p>  \
 		<p><i class='fa fa-globe fa-fw'></i>\
-			Website: <a href='https://frappeframework.com' target='_blank'>https://frappeframework.com</a></p>\
+			Website: <a href='https://www.g2virtu.com' target='_blank'>https://www.g2virtu.com</a></p>\
 		<p><i class='fa fa-github fa-fw'></i>\
-			Source: <a href='https://github.com/frappe' target='_blank'>https://github.com/frappe</a></p>\
+			Source: <a href='https://github.com/ggraza' target='_blank'>https://github.com/ggraza</a></p>\
 		<p><i class='fa fa-linkedin fa-fw'></i>\
-			Linkedin: <a href='https://linkedin.com/company/frappe-tech' target='_blank'>https://linkedin.com/company/frappe-tech</a></p>\
+			Linkedin: <a href='https://linkedin.com/company/virtuerp' target='_blank'>https://linkedin.com/company/virtuerp</a></p>\
 		<p><i class='fa fa-facebook fa-fw'></i>\
-			Facebook: <a href='https://facebook.com/erpnext' target='_blank'>https://facebook.com/erpnext</a></p>\
+			Facebook: <a href='https://facebook.com/G2Virtu' target='_blank'>https://facebook.com/G2Virtu</a></p>\
 		<p><i class='fa fa-twitter fa-fw'></i>\
-			Twitter: <a href='https://twitter.com/erpnext' target='_blank'>https://twitter.com/erpnext</a></p>\
+			Twitter: <a href='https://twitter.com/G2Virtu' target='_blank'>https://twitter.com/G2Virtu</a></p>\
 		<hr>\
 		<h4>Installed Apps</h4>\
 		<div id='about-app-versions'>Loading versions...</div>\
 		<hr>\
-		<p class='text-muted'>&copy; Frappe Technologies Pvt. Ltd. and contributors </p> \
+		<p class='text-muted'>&copy; G2Virtu Business Management Solutions and contributors </p> \
 		</div>",
 				frappe.app
 			)

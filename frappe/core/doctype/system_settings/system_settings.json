@@ -384,7 +384,7 @@
    "fieldtype": "Column Break"
   },
   {
-   "default": "0",
+   "default": "1",
    "fieldname": "disable_standard_email_footer",
    "fieldtype": "Check",
    "label": "Disable Standard Email Footer"
@@ -445,7 +445,7 @@
    "label": "Reports"
   },
   {
-   "default": "Frappe",
+   "default": "G2Virtu",
    "description": "The application name will be used in the Login page.",
    "fieldname": "app_name",
    "fieldtype": "Data",

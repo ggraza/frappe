@@ -88,7 +88,8 @@
    "fieldtype": "Column Break"
   },
   {
-   "description": "Show title in browser window as \"Prefix - title\"",
+    "default": "G2Virtu",
+    "description": "Show title in browser window as \"Prefix - title\"",
    "fieldname": "title_prefix",
    "fieldtype": "Data",
    "in_list_view": 1,
@@ -131,6 +132,7 @@
    "label": "Brand Image"
   },
   {
+   "default": "G2Virtu",
    "description": "Brand is what appears on the top-left of the toolbar. If it is an image, make sure it\nhas a transparent background and use the &lt;img /&gt; tag. Keep size as 200px x 30px",
    "fieldname": "brand_html",
    "fieldtype": "Code",
@@ -182,6 +184,7 @@
    "label": "Footer"
   },
   {
+   "default": "G2Virtu",
    "fieldname": "copyright",
    "fieldtype": "Data",
    "label": "Copyright"
@@ -382,7 +385,7 @@
    "label": "Navbar Template"
   },
   {
-   "default": "Frappe",
+   "default": "G2Virtu",
    "fieldname": "app_name",
    "fieldtype": "Data",
    "label": "App Name"

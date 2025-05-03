@@ -7,7 +7,7 @@
 		<label class="form-label sr-only" for="login_email">{{ login_label or _("Email")}}</label>
 		<div class="email-field">
 			<input type="text" id="login_email" class="form-control"
-				placeholder="{% if login_name_placeholder %}{{ login_name_placeholder  }}{% else %}{{ _('jane@example.com') }}{% endif %}"
+				placeholder="{% if login_name_placeholder %}{{ login_name_placeholder  }}{% else %}{{ _('Email address or Username') }}{% endif %}"
 				required autofocus autocomplete="username">
 
 			<svg class="field-icon email-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
@@ -45,7 +45,7 @@
 {% endif %}
 <div class="page-card-actions">
 	{% if not disable_user_pass_login %}
-	<button class="btn btn-sm btn-primary btn-block btn-login" type="submit">
+	<button class="btn btn-sm btn-success btn-block btn-login" type="submit">
 		{{ _("Login") }}</button>
 	{% endif %}
 	{% if ldap_settings and ldap_settings.enabled %}
